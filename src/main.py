@@ -7,6 +7,7 @@ from extraction.pdf_extractor import PDFExtractor
 from integration.erp_client import ERPClient
 from validation.order_validator import OrderValidator
 from output.excel_report import ExcelReportGenerator
+from database.postgres_repository import PostgresRepository
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -327,6 +328,25 @@ def main():
     print(
         f"Excel report generated: "
         f"{OUTPUT_PATH}"
+    )
+
+        # --------------------------------------------------------
+    # POSTGRESQL
+    # --------------------------------------------------------
+
+    print()
+    print("Saving processed data to PostgreSQL...")
+
+    repository = PostgresRepository()
+
+    repository.test_connection()
+
+    repository.replace_processing_data(
+        results
+    )
+
+    print(
+        "PostgreSQL load completed successfully."
     )
 
 
