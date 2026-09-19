@@ -1,0 +1,58 @@
+[
+    {
+        "seller_id": 1,
+        "seller_code": "SEL-001",
+        "seller_name": "Olivia Carter",
+        "region": "North",
+        "active": true
+    },
+    {
+        "seller_id": 2,
+        "seller_code": "SEL-002",
+        "seller_name": "Ethan Brooks",
+        "region": "South",
+        "active": true
+    },
+    {
+        "seller_id": 3,
+        "seller_code": "SEL-003",
+        "seller_name": "Sophia Turner",
+        "region": "East",
+        "active": true
+    },
+    {
+        "seller_id": 4,
+        "seller_code": "SEL-004",
+        "seller_name": "Liam Parker",
+        "region": "West",
+        "active": true
+    },
+    {
+        "seller_id": 5,
+        "seller_code": "SEL-005",
+        "seller_name": "Emma Collins",
+        "region": "Central",
+        "active": true
+    },
+    {
+        "seller_id": 6,
+        "seller_code": "SEL-006",
+        "seller_name": "Noah Bennett",
+        "region": "North",
+        "active": true
+    },
+    {
+        "seller_id": 7,
+        "seller_code": "SEL-007",
+        "seller_name": "Ava Mitchell",
+        "region": "South",
+        "active": true
+    },
+    {
+        "seller_id": 8,
+        "seller_code": "SEL-008",
+        "seller_name": "Lucas Morgan",
+        "region": "East",
+        "active": true
+    }
+]

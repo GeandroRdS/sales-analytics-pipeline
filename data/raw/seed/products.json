@@ -1,0 +1,1502 @@
+[
+    {
+        "product_id": 1,
+        "product_code": "PRD-0001",
+        "description": "Visionix Professional Laptop",
+        "category": "Computers",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 1497.08,
+        "active": true
+    },
+    {
+        "product_id": 2,
+        "product_code": "PRD-0002",
+        "description": "Orbitek 32\" UHD Monitor",
+        "category": "Monitors",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 2490.36,
+        "active": true
+    },
+    {
+        "product_id": 3,
+        "product_code": "PRD-0003",
+        "description": "Veltrix Wireless Keyboard",
+        "category": "Peripherals",
+        "brand": "Veltrix",
+        "units_per_case": 20,
+        "unit_price": 2154.04,
+        "active": false
+    },
+    {
+        "product_id": 4,
+        "product_code": "PRD-0004",
+        "description": "Nexora Gigabit Router",
+        "category": "Networking",
+        "brand": "Nexora",
+        "units_per_case": 20,
+        "unit_price": 1880.93,
+        "active": true
+    },
+    {
+        "product_id": 5,
+        "product_code": "PRD-0005",
+        "description": "Axion 1TB SSD",
+        "category": "Storage",
+        "brand": "Axion",
+        "units_per_case": 1,
+        "unit_price": 744.35,
+        "active": true
+    },
+    {
+        "product_id": 6,
+        "product_code": "PRD-0006",
+        "description": "Visionix USB-C Cable",
+        "category": "Accessories",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 2385.23,
+        "active": true
+    },
+    {
+        "product_id": 7,
+        "product_code": "PRD-0007",
+        "description": "Axion Desktop Speakers",
+        "category": "Audio",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 1908.48,
+        "active": true
+    },
+    {
+        "product_id": 8,
+        "product_code": "PRD-0008",
+        "description": "Veltrix Document Scanner",
+        "category": "Office Equipment",
+        "brand": "Veltrix",
+        "units_per_case": 5,
+        "unit_price": 2106.55,
+        "active": true
+    },
+    {
+        "product_id": 9,
+        "product_code": "PRD-0009",
+        "description": "Veltrix Workstation",
+        "category": "Computers",
+        "brand": "Veltrix",
+        "units_per_case": 2,
+        "unit_price": 394.81,
+        "active": true
+    },
+    {
+        "product_id": 10,
+        "product_code": "PRD-0010",
+        "description": "Visionix 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 820.53,
+        "active": true
+    },
+    {
+        "product_id": 11,
+        "product_code": "PRD-0011",
+        "description": "Nexora Wireless Mouse",
+        "category": "Peripherals",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 2198.62,
+        "active": true
+    },
+    {
+        "product_id": 12,
+        "product_code": "PRD-0012",
+        "description": "ByteCore Wi-Fi 6 Router",
+        "category": "Networking",
+        "brand": "ByteCore",
+        "units_per_case": 1,
+        "unit_price": 613.57,
+        "active": true
+    },
+    {
+        "product_id": 13,
+        "product_code": "PRD-0013",
+        "description": "Veltrix 256GB SSD",
+        "category": "Storage",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 1833.79,
+        "active": true
+    },
+    {
+        "product_id": 14,
+        "product_code": "PRD-0014",
+        "description": "Nexora Laptop Backpack",
+        "category": "Accessories",
+        "brand": "Nexora",
+        "units_per_case": 2,
+        "unit_price": 334.05,
+        "active": true
+    },
+    {
+        "product_id": 15,
+        "product_code": "PRD-0015",
+        "description": "Orbitek Wireless Headset",
+        "category": "Audio",
+        "brand": "Orbitek",
+        "units_per_case": 5,
+        "unit_price": 1326.27,
+        "active": true
+    },
+    {
+        "product_id": 16,
+        "product_code": "PRD-0016",
+        "description": "Veltrix Thermal Printer",
+        "category": "Office Equipment",
+        "brand": "Veltrix",
+        "units_per_case": 2,
+        "unit_price": 2323.35,
+        "active": true
+    },
+    {
+        "product_id": 17,
+        "product_code": "PRD-0017",
+        "description": "Axion Professional Laptop",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 1006.5,
+        "active": true
+    },
+    {
+        "product_id": 18,
+        "product_code": "PRD-0018",
+        "description": "Axion 27\" QHD Monitor",
+        "category": "Monitors",
+        "brand": "Axion",
+        "units_per_case": 10,
+        "unit_price": 2250.54,
+        "active": true
+    },
+    {
+        "product_id": 19,
+        "product_code": "PRD-0019",
+        "description": "Orbitek Wireless Mouse",
+        "category": "Peripherals",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 573.37,
+        "active": true
+    },
+    {
+        "product_id": 20,
+        "product_code": "PRD-0020",
+        "description": "ByteCore Gigabit Router",
+        "category": "Networking",
+        "brand": "ByteCore",
+        "units_per_case": 20,
+        "unit_price": 1391.49,
+        "active": true
+    },
+    {
+        "product_id": 21,
+        "product_code": "PRD-0021",
+        "description": "Veltrix 512GB SSD",
+        "category": "Storage",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 191.42,
+        "active": true
+    },
+    {
+        "product_id": 22,
+        "product_code": "PRD-0022",
+        "description": "Axion USB-C Hub",
+        "category": "Accessories",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 182.49,
+        "active": true
+    },
+    {
+        "product_id": 23,
+        "product_code": "PRD-0023",
+        "description": "Nexora Desktop Speakers",
+        "category": "Audio",
+        "brand": "Nexora",
+        "units_per_case": 1,
+        "unit_price": 1292.68,
+        "active": true
+    },
+    {
+        "product_id": 24,
+        "product_code": "PRD-0024",
+        "description": "ByteCore Thermal Printer",
+        "category": "Office Equipment",
+        "brand": "ByteCore",
+        "units_per_case": 2,
+        "unit_price": 1355.0,
+        "active": true
+    },
+    {
+        "product_id": 25,
+        "product_code": "PRD-0025",
+        "description": "Axion Workstation",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 1189.59,
+        "active": true
+    },
+    {
+        "product_id": 26,
+        "product_code": "PRD-0026",
+        "description": "Orbitek 32\" UHD Monitor",
+        "category": "Monitors",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 249.4,
+        "active": true
+    },
+    {
+        "product_id": 27,
+        "product_code": "PRD-0027",
+        "description": "Axion Webcam",
+        "category": "Peripherals",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 1067.59,
+        "active": true
+    },
+    {
+        "product_id": 28,
+        "product_code": "PRD-0028",
+        "description": "Orbitek Gigabit Router",
+        "category": "Networking",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 165.62,
+        "active": true
+    },
+    {
+        "product_id": 29,
+        "product_code": "PRD-0029",
+        "description": "Axion 1TB SSD",
+        "category": "Storage",
+        "brand": "Axion",
+        "units_per_case": 1,
+        "unit_price": 632.91,
+        "active": true
+    },
+    {
+        "product_id": 30,
+        "product_code": "PRD-0030",
+        "description": "Visionix Laptop Backpack",
+        "category": "Accessories",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 363.35,
+        "active": true
+    },
+    {
+        "product_id": 31,
+        "product_code": "PRD-0031",
+        "description": "Visionix Desktop Speakers",
+        "category": "Audio",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 635.77,
+        "active": true
+    },
+    {
+        "product_id": 32,
+        "product_code": "PRD-0032",
+        "description": "Nexora Thermal Printer",
+        "category": "Office Equipment",
+        "brand": "Nexora",
+        "units_per_case": 20,
+        "unit_price": 258.3,
+        "active": true
+    },
+    {
+        "product_id": 33,
+        "product_code": "PRD-0033",
+        "description": "Axion Workstation",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 1,
+        "unit_price": 2422.96,
+        "active": true
+    },
+    {
+        "product_id": 34,
+        "product_code": "PRD-0034",
+        "description": "Visionix 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 1221.82,
+        "active": true
+    },
+    {
+        "product_id": 35,
+        "product_code": "PRD-0035",
+        "description": "Visionix Webcam",
+        "category": "Peripherals",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 424.12,
+        "active": true
+    },
+    {
+        "product_id": 36,
+        "product_code": "PRD-0036",
+        "description": "Nexora 16-Port Switch",
+        "category": "Networking",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 2317.4,
+        "active": true
+    },
+    {
+        "product_id": 37,
+        "product_code": "PRD-0037",
+        "description": "Orbitek 1TB SSD",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 10,
+        "unit_price": 1746.03,
+        "active": true
+    },
+    {
+        "product_id": 38,
+        "product_code": "PRD-0038",
+        "description": "Axion Laptop Backpack",
+        "category": "Accessories",
+        "brand": "Axion",
+        "units_per_case": 10,
+        "unit_price": 399.67,
+        "active": true
+    },
+    {
+        "product_id": 39,
+        "product_code": "PRD-0039",
+        "description": "ByteCore Wireless Headset",
+        "category": "Audio",
+        "brand": "ByteCore",
+        "units_per_case": 1,
+        "unit_price": 1454.26,
+        "active": true
+    },
+    {
+        "product_id": 40,
+        "product_code": "PRD-0040",
+        "description": "Veltrix Document Scanner",
+        "category": "Office Equipment",
+        "brand": "Veltrix",
+        "units_per_case": 5,
+        "unit_price": 157.06,
+        "active": true
+    },
+    {
+        "product_id": 41,
+        "product_code": "PRD-0041",
+        "description": "Veltrix Office Desktop",
+        "category": "Computers",
+        "brand": "Veltrix",
+        "units_per_case": 20,
+        "unit_price": 2299.68,
+        "active": true
+    },
+    {
+        "product_id": 42,
+        "product_code": "PRD-0042",
+        "description": "Veltrix 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 2402.54,
+        "active": true
+    },
+    {
+        "product_id": 43,
+        "product_code": "PRD-0043",
+        "description": "Nexora Mechanical Keyboard",
+        "category": "Peripherals",
+        "brand": "Nexora",
+        "units_per_case": 1,
+        "unit_price": 1493.66,
+        "active": true
+    },
+    {
+        "product_id": 44,
+        "product_code": "PRD-0044",
+        "description": "Axion Wi-Fi 6 Router",
+        "category": "Networking",
+        "brand": "Axion",
+        "units_per_case": 10,
+        "unit_price": 312.92,
+        "active": true
+    },
+    {
+        "product_id": 45,
+        "product_code": "PRD-0045",
+        "description": "Veltrix 512GB SSD",
+        "category": "Storage",
+        "brand": "Veltrix",
+        "units_per_case": 20,
+        "unit_price": 1492.38,
+        "active": true
+    },
+    {
+        "product_id": 46,
+        "product_code": "PRD-0046",
+        "description": "Veltrix USB-C Hub",
+        "category": "Accessories",
+        "brand": "Veltrix",
+        "units_per_case": 10,
+        "unit_price": 1648.57,
+        "active": true
+    },
+    {
+        "product_id": 47,
+        "product_code": "PRD-0047",
+        "description": "Veltrix Desktop Speakers",
+        "category": "Audio",
+        "brand": "Veltrix",
+        "units_per_case": 5,
+        "unit_price": 522.58,
+        "active": true
+    },
+    {
+        "product_id": 48,
+        "product_code": "PRD-0048",
+        "description": "Axion Barcode Scanner",
+        "category": "Office Equipment",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 675.05,
+        "active": true
+    },
+    {
+        "product_id": 49,
+        "product_code": "PRD-0049",
+        "description": "Visionix Mini Desktop",
+        "category": "Computers",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 800.7,
+        "active": true
+    },
+    {
+        "product_id": 50,
+        "product_code": "PRD-0050",
+        "description": "Nexora 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Nexora",
+        "units_per_case": 10,
+        "unit_price": 1558.58,
+        "active": true
+    },
+    {
+        "product_id": 51,
+        "product_code": "PRD-0051",
+        "description": "Veltrix Wireless Mouse",
+        "category": "Peripherals",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 1351.02,
+        "active": true
+    },
+    {
+        "product_id": 52,
+        "product_code": "PRD-0052",
+        "description": "Veltrix 8-Port Switch",
+        "category": "Networking",
+        "brand": "Veltrix",
+        "units_per_case": 2,
+        "unit_price": 2334.15,
+        "active": true
+    },
+    {
+        "product_id": 53,
+        "product_code": "PRD-0053",
+        "description": "Nexora 512GB SSD",
+        "category": "Storage",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 723.19,
+        "active": true
+    },
+    {
+        "product_id": 54,
+        "product_code": "PRD-0054",
+        "description": "Orbitek Laptop Backpack",
+        "category": "Accessories",
+        "brand": "Orbitek",
+        "units_per_case": 5,
+        "unit_price": 1535.02,
+        "active": true
+    },
+    {
+        "product_id": 55,
+        "product_code": "PRD-0055",
+        "description": "Axion USB Headset",
+        "category": "Audio",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 758.96,
+        "active": true
+    },
+    {
+        "product_id": 56,
+        "product_code": "PRD-0056",
+        "description": "Axion Document Scanner",
+        "category": "Office Equipment",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 672.2,
+        "active": true
+    },
+    {
+        "product_id": 57,
+        "product_code": "PRD-0057",
+        "description": "Nexora Workstation",
+        "category": "Computers",
+        "brand": "Nexora",
+        "units_per_case": 2,
+        "unit_price": 691.79,
+        "active": true
+    },
+    {
+        "product_id": 58,
+        "product_code": "PRD-0058",
+        "description": "Veltrix 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Veltrix",
+        "units_per_case": 5,
+        "unit_price": 520.94,
+        "active": true
+    },
+    {
+        "product_id": 59,
+        "product_code": "PRD-0059",
+        "description": "Axion Wireless Keyboard",
+        "category": "Peripherals",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 1229.0,
+        "active": true
+    },
+    {
+        "product_id": 60,
+        "product_code": "PRD-0060",
+        "description": "Nexora Gigabit Router",
+        "category": "Networking",
+        "brand": "Nexora",
+        "units_per_case": 10,
+        "unit_price": 2075.93,
+        "active": true
+    },
+    {
+        "product_id": 61,
+        "product_code": "PRD-0061",
+        "description": "Nexora 256GB SSD",
+        "category": "Storage",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 1931.23,
+        "active": true
+    },
+    {
+        "product_id": 62,
+        "product_code": "PRD-0062",
+        "description": "Axion HDMI Cable",
+        "category": "Accessories",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 1856.96,
+        "active": true
+    },
+    {
+        "product_id": 63,
+        "product_code": "PRD-0063",
+        "description": "Veltrix Conference Speaker",
+        "category": "Audio",
+        "brand": "Veltrix",
+        "units_per_case": 20,
+        "unit_price": 39.03,
+        "active": true
+    },
+    {
+        "product_id": 64,
+        "product_code": "PRD-0064",
+        "description": "Nexora Label Printer",
+        "category": "Office Equipment",
+        "brand": "Nexora",
+        "units_per_case": 20,
+        "unit_price": 104.53,
+        "active": true
+    },
+    {
+        "product_id": 65,
+        "product_code": "PRD-0065",
+        "description": "ByteCore Workstation",
+        "category": "Computers",
+        "brand": "ByteCore",
+        "units_per_case": 20,
+        "unit_price": 383.01,
+        "active": true
+    },
+    {
+        "product_id": 66,
+        "product_code": "PRD-0066",
+        "description": "Visionix 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 5,
+        "unit_price": 921.16,
+        "active": true
+    },
+    {
+        "product_id": 67,
+        "product_code": "PRD-0067",
+        "description": "Nexora Wireless Keyboard",
+        "category": "Peripherals",
+        "brand": "Nexora",
+        "units_per_case": 2,
+        "unit_price": 1709.94,
+        "active": true
+    },
+    {
+        "product_id": 68,
+        "product_code": "PRD-0068",
+        "description": "Axion Gigabit Router",
+        "category": "Networking",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 1953.59,
+        "active": true
+    },
+    {
+        "product_id": 69,
+        "product_code": "PRD-0069",
+        "description": "Orbitek 4TB External Drive",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 2315.52,
+        "active": true
+    },
+    {
+        "product_id": 70,
+        "product_code": "PRD-0070",
+        "description": "Visionix Notebook Stand",
+        "category": "Accessories",
+        "brand": "Visionix",
+        "units_per_case": 2,
+        "unit_price": 2205.32,
+        "active": true
+    },
+    {
+        "product_id": 71,
+        "product_code": "PRD-0071",
+        "description": "Nexora Wireless Headset",
+        "category": "Audio",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 1959.23,
+        "active": false
+    },
+    {
+        "product_id": 72,
+        "product_code": "PRD-0072",
+        "description": "Orbitek Label Printer",
+        "category": "Office Equipment",
+        "brand": "Orbitek",
+        "units_per_case": 5,
+        "unit_price": 410.61,
+        "active": true
+    },
+    {
+        "product_id": 73,
+        "product_code": "PRD-0073",
+        "description": "Axion Business Laptop",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 10,
+        "unit_price": 2182.33,
+        "active": true
+    },
+    {
+        "product_id": 74,
+        "product_code": "PRD-0074",
+        "description": "Orbitek 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 2044.22,
+        "active": true
+    },
+    {
+        "product_id": 75,
+        "product_code": "PRD-0075",
+        "description": "Orbitek Wireless Keyboard",
+        "category": "Peripherals",
+        "brand": "Orbitek",
+        "units_per_case": 5,
+        "unit_price": 2054.03,
+        "active": true
+    },
+    {
+        "product_id": 76,
+        "product_code": "PRD-0076",
+        "description": "Visionix Wi-Fi 6 Router",
+        "category": "Networking",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 1655.18,
+        "active": true
+    },
+    {
+        "product_id": 77,
+        "product_code": "PRD-0077",
+        "description": "Orbitek 1TB SSD",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 5,
+        "unit_price": 2162.92,
+        "active": true
+    },
+    {
+        "product_id": 78,
+        "product_code": "PRD-0078",
+        "description": "ByteCore HDMI Cable",
+        "category": "Accessories",
+        "brand": "ByteCore",
+        "units_per_case": 20,
+        "unit_price": 1008.2,
+        "active": true
+    },
+    {
+        "product_id": 79,
+        "product_code": "PRD-0079",
+        "description": "Veltrix Desktop Speakers",
+        "category": "Audio",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 301.62,
+        "active": true
+    },
+    {
+        "product_id": 80,
+        "product_code": "PRD-0080",
+        "description": "ByteCore Label Printer",
+        "category": "Office Equipment",
+        "brand": "ByteCore",
+        "units_per_case": 20,
+        "unit_price": 2406.9,
+        "active": true
+    },
+    {
+        "product_id": 81,
+        "product_code": "PRD-0081",
+        "description": "ByteCore Business Laptop",
+        "category": "Computers",
+        "brand": "ByteCore",
+        "units_per_case": 1,
+        "unit_price": 1497.48,
+        "active": true
+    },
+    {
+        "product_id": 82,
+        "product_code": "PRD-0082",
+        "description": "ByteCore 27\" QHD Monitor",
+        "category": "Monitors",
+        "brand": "ByteCore",
+        "units_per_case": 10,
+        "unit_price": 1521.43,
+        "active": true
+    },
+    {
+        "product_id": 83,
+        "product_code": "PRD-0083",
+        "description": "Veltrix Wireless Mouse",
+        "category": "Peripherals",
+        "brand": "Veltrix",
+        "units_per_case": 10,
+        "unit_price": 2250.27,
+        "active": true
+    },
+    {
+        "product_id": 84,
+        "product_code": "PRD-0084",
+        "description": "Visionix 8-Port Switch",
+        "category": "Networking",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 1776.33,
+        "active": true
+    },
+    {
+        "product_id": 85,
+        "product_code": "PRD-0085",
+        "description": "Nexora 4TB External Drive",
+        "category": "Storage",
+        "brand": "Nexora",
+        "units_per_case": 20,
+        "unit_price": 1721.84,
+        "active": true
+    },
+    {
+        "product_id": 86,
+        "product_code": "PRD-0086",
+        "description": "Axion Notebook Stand",
+        "category": "Accessories",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 1086.77,
+        "active": true
+    },
+    {
+        "product_id": 87,
+        "product_code": "PRD-0087",
+        "description": "Axion Desktop Speakers",
+        "category": "Audio",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 795.08,
+        "active": true
+    },
+    {
+        "product_id": 88,
+        "product_code": "PRD-0088",
+        "description": "Nexora Barcode Scanner",
+        "category": "Office Equipment",
+        "brand": "Nexora",
+        "units_per_case": 20,
+        "unit_price": 783.57,
+        "active": true
+    },
+    {
+        "product_id": 89,
+        "product_code": "PRD-0089",
+        "description": "Orbitek Mini Desktop",
+        "category": "Computers",
+        "brand": "Orbitek",
+        "units_per_case": 10,
+        "unit_price": 1747.56,
+        "active": true
+    },
+    {
+        "product_id": 90,
+        "product_code": "PRD-0090",
+        "description": "Veltrix 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Veltrix",
+        "units_per_case": 2,
+        "unit_price": 1059.81,
+        "active": true
+    },
+    {
+        "product_id": 91,
+        "product_code": "PRD-0091",
+        "description": "Orbitek Mechanical Keyboard",
+        "category": "Peripherals",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 1429.23,
+        "active": true
+    },
+    {
+        "product_id": 92,
+        "product_code": "PRD-0092",
+        "description": "Orbitek 24-Port Switch",
+        "category": "Networking",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 770.13,
+        "active": true
+    },
+    {
+        "product_id": 93,
+        "product_code": "PRD-0093",
+        "description": "Visionix 2TB External Drive",
+        "category": "Storage",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 1522.55,
+        "active": true
+    },
+    {
+        "product_id": 94,
+        "product_code": "PRD-0094",
+        "description": "ByteCore USB-C Cable",
+        "category": "Accessories",
+        "brand": "ByteCore",
+        "units_per_case": 10,
+        "unit_price": 1113.77,
+        "active": true
+    },
+    {
+        "product_id": 95,
+        "product_code": "PRD-0095",
+        "description": "Visionix Conference Speaker",
+        "category": "Audio",
+        "brand": "Visionix",
+        "units_per_case": 2,
+        "unit_price": 1652.24,
+        "active": true
+    },
+    {
+        "product_id": 96,
+        "product_code": "PRD-0096",
+        "description": "ByteCore Barcode Scanner",
+        "category": "Office Equipment",
+        "brand": "ByteCore",
+        "units_per_case": 1,
+        "unit_price": 2048.78,
+        "active": true
+    },
+    {
+        "product_id": 97,
+        "product_code": "PRD-0097",
+        "description": "Visionix Mini Desktop",
+        "category": "Computers",
+        "brand": "Visionix",
+        "units_per_case": 2,
+        "unit_price": 2019.31,
+        "active": true
+    },
+    {
+        "product_id": 98,
+        "product_code": "PRD-0098",
+        "description": "Visionix 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 623.43,
+        "active": true
+    },
+    {
+        "product_id": 99,
+        "product_code": "PRD-0099",
+        "description": "Orbitek USB Keyboard",
+        "category": "Peripherals",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 1146.71,
+        "active": true
+    },
+    {
+        "product_id": 100,
+        "product_code": "PRD-0100",
+        "description": "Axion 24-Port Switch",
+        "category": "Networking",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 1800.09,
+        "active": true
+    },
+    {
+        "product_id": 101,
+        "product_code": "PRD-0101",
+        "description": "Orbitek 2TB External Drive",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 10,
+        "unit_price": 621.3,
+        "active": true
+    },
+    {
+        "product_id": 102,
+        "product_code": "PRD-0102",
+        "description": "Axion USB-C Hub",
+        "category": "Accessories",
+        "brand": "Axion",
+        "units_per_case": 1,
+        "unit_price": 1949.37,
+        "active": true
+    },
+    {
+        "product_id": 103,
+        "product_code": "PRD-0103",
+        "description": "Visionix Wireless Headset",
+        "category": "Audio",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 1169.41,
+        "active": true
+    },
+    {
+        "product_id": 104,
+        "product_code": "PRD-0104",
+        "description": "Veltrix Label Printer",
+        "category": "Office Equipment",
+        "brand": "Veltrix",
+        "units_per_case": 1,
+        "unit_price": 1149.31,
+        "active": true
+    },
+    {
+        "product_id": 105,
+        "product_code": "PRD-0105",
+        "description": "Orbitek Workstation",
+        "category": "Computers",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 1494.7,
+        "active": true
+    },
+    {
+        "product_id": 106,
+        "product_code": "PRD-0106",
+        "description": "Orbitek 32\" UHD Monitor",
+        "category": "Monitors",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 1123.1,
+        "active": true
+    },
+    {
+        "product_id": 107,
+        "product_code": "PRD-0107",
+        "description": "Visionix Webcam",
+        "category": "Peripherals",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 659.09,
+        "active": true
+    },
+    {
+        "product_id": 108,
+        "product_code": "PRD-0108",
+        "description": "Visionix 8-Port Switch",
+        "category": "Networking",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 1219.22,
+        "active": true
+    },
+    {
+        "product_id": 109,
+        "product_code": "PRD-0109",
+        "description": "Visionix 1TB SSD",
+        "category": "Storage",
+        "brand": "Visionix",
+        "units_per_case": 10,
+        "unit_price": 207.55,
+        "active": true
+    },
+    {
+        "product_id": 110,
+        "product_code": "PRD-0110",
+        "description": "ByteCore Notebook Stand",
+        "category": "Accessories",
+        "brand": "ByteCore",
+        "units_per_case": 5,
+        "unit_price": 849.58,
+        "active": true
+    },
+    {
+        "product_id": 111,
+        "product_code": "PRD-0111",
+        "description": "Veltrix USB Headset",
+        "category": "Audio",
+        "brand": "Veltrix",
+        "units_per_case": 2,
+        "unit_price": 389.81,
+        "active": true
+    },
+    {
+        "product_id": 112,
+        "product_code": "PRD-0112",
+        "description": "Orbitek Label Printer",
+        "category": "Office Equipment",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 174.61,
+        "active": true
+    },
+    {
+        "product_id": 113,
+        "product_code": "PRD-0113",
+        "description": "Orbitek Mini Desktop",
+        "category": "Computers",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 1172.82,
+        "active": true
+    },
+    {
+        "product_id": 114,
+        "product_code": "PRD-0114",
+        "description": "Nexora 24\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Nexora",
+        "units_per_case": 10,
+        "unit_price": 982.85,
+        "active": true
+    },
+    {
+        "product_id": 115,
+        "product_code": "PRD-0115",
+        "description": "Veltrix Wireless Mouse",
+        "category": "Peripherals",
+        "brand": "Veltrix",
+        "units_per_case": 20,
+        "unit_price": 960.25,
+        "active": true
+    },
+    {
+        "product_id": 116,
+        "product_code": "PRD-0116",
+        "description": "Nexora 8-Port Switch",
+        "category": "Networking",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 1887.39,
+        "active": true
+    },
+    {
+        "product_id": 117,
+        "product_code": "PRD-0117",
+        "description": "Orbitek 4TB External Drive",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 20,
+        "unit_price": 2002.67,
+        "active": true
+    },
+    {
+        "product_id": 118,
+        "product_code": "PRD-0118",
+        "description": "Visionix USB-C Cable",
+        "category": "Accessories",
+        "brand": "Visionix",
+        "units_per_case": 2,
+        "unit_price": 693.24,
+        "active": true
+    },
+    {
+        "product_id": 119,
+        "product_code": "PRD-0119",
+        "description": "Orbitek USB Headset",
+        "category": "Audio",
+        "brand": "Orbitek",
+        "units_per_case": 10,
+        "unit_price": 850.28,
+        "active": true
+    },
+    {
+        "product_id": 120,
+        "product_code": "PRD-0120",
+        "description": "Axion Thermal Printer",
+        "category": "Office Equipment",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 2103.66,
+        "active": true
+    },
+    {
+        "product_id": 121,
+        "product_code": "PRD-0121",
+        "description": "Visionix Workstation",
+        "category": "Computers",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 82.01,
+        "active": true
+    },
+    {
+        "product_id": 122,
+        "product_code": "PRD-0122",
+        "description": "Orbitek 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 1612.23,
+        "active": true
+    },
+    {
+        "product_id": 123,
+        "product_code": "PRD-0123",
+        "description": "Visionix Webcam",
+        "category": "Peripherals",
+        "brand": "Visionix",
+        "units_per_case": 2,
+        "unit_price": 139.96,
+        "active": true
+    },
+    {
+        "product_id": 124,
+        "product_code": "PRD-0124",
+        "description": "Orbitek 8-Port Switch",
+        "category": "Networking",
+        "brand": "Orbitek",
+        "units_per_case": 2,
+        "unit_price": 1144.93,
+        "active": true
+    },
+    {
+        "product_id": 125,
+        "product_code": "PRD-0125",
+        "description": "ByteCore 2TB External Drive",
+        "category": "Storage",
+        "brand": "ByteCore",
+        "units_per_case": 5,
+        "unit_price": 1883.74,
+        "active": true
+    },
+    {
+        "product_id": 126,
+        "product_code": "PRD-0126",
+        "description": "Orbitek HDMI Cable",
+        "category": "Accessories",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 1183.71,
+        "active": true
+    },
+    {
+        "product_id": 127,
+        "product_code": "PRD-0127",
+        "description": "Axion USB Headset",
+        "category": "Audio",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 572.19,
+        "active": true
+    },
+    {
+        "product_id": 128,
+        "product_code": "PRD-0128",
+        "description": "Nexora Document Scanner",
+        "category": "Office Equipment",
+        "brand": "Nexora",
+        "units_per_case": 1,
+        "unit_price": 2374.79,
+        "active": true
+    },
+    {
+        "product_id": 129,
+        "product_code": "PRD-0129",
+        "description": "Visionix Business Laptop",
+        "category": "Computers",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 393.67,
+        "active": true
+    },
+    {
+        "product_id": 130,
+        "product_code": "PRD-0130",
+        "description": "Visionix 32\" UHD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 1,
+        "unit_price": 1416.46,
+        "active": true
+    },
+    {
+        "product_id": 131,
+        "product_code": "PRD-0131",
+        "description": "Visionix Webcam",
+        "category": "Peripherals",
+        "brand": "Visionix",
+        "units_per_case": 5,
+        "unit_price": 1920.74,
+        "active": true
+    },
+    {
+        "product_id": 132,
+        "product_code": "PRD-0132",
+        "description": "Visionix 24-Port Switch",
+        "category": "Networking",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 2409.88,
+        "active": true
+    },
+    {
+        "product_id": 133,
+        "product_code": "PRD-0133",
+        "description": "Axion 256GB SSD",
+        "category": "Storage",
+        "brand": "Axion",
+        "units_per_case": 2,
+        "unit_price": 2412.33,
+        "active": false
+    },
+    {
+        "product_id": 134,
+        "product_code": "PRD-0134",
+        "description": "Nexora Laptop Backpack",
+        "category": "Accessories",
+        "brand": "Nexora",
+        "units_per_case": 1,
+        "unit_price": 2323.28,
+        "active": true
+    },
+    {
+        "product_id": 135,
+        "product_code": "PRD-0135",
+        "description": "Veltrix Conference Speaker",
+        "category": "Audio",
+        "brand": "Veltrix",
+        "units_per_case": 10,
+        "unit_price": 2354.55,
+        "active": true
+    },
+    {
+        "product_id": 136,
+        "product_code": "PRD-0136",
+        "description": "Visionix Document Scanner",
+        "category": "Office Equipment",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 1731.18,
+        "active": true
+    },
+    {
+        "product_id": 137,
+        "product_code": "PRD-0137",
+        "description": "Axion Professional Laptop",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 1,
+        "unit_price": 1747.52,
+        "active": true
+    },
+    {
+        "product_id": 138,
+        "product_code": "PRD-0138",
+        "description": "ByteCore 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "ByteCore",
+        "units_per_case": 20,
+        "unit_price": 1959.85,
+        "active": true
+    },
+    {
+        "product_id": 139,
+        "product_code": "PRD-0139",
+        "description": "ByteCore USB Keyboard",
+        "category": "Peripherals",
+        "brand": "ByteCore",
+        "units_per_case": 10,
+        "unit_price": 1658.88,
+        "active": true
+    },
+    {
+        "product_id": 140,
+        "product_code": "PRD-0140",
+        "description": "Nexora 24-Port Switch",
+        "category": "Networking",
+        "brand": "Nexora",
+        "units_per_case": 5,
+        "unit_price": 46.44,
+        "active": true
+    },
+    {
+        "product_id": 141,
+        "product_code": "PRD-0141",
+        "description": "Orbitek 2TB External Drive",
+        "category": "Storage",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 1092.31,
+        "active": true
+    },
+    {
+        "product_id": 142,
+        "product_code": "PRD-0142",
+        "description": "ByteCore USB-C Cable",
+        "category": "Accessories",
+        "brand": "ByteCore",
+        "units_per_case": 2,
+        "unit_price": 1097.19,
+        "active": true
+    },
+    {
+        "product_id": 143,
+        "product_code": "PRD-0143",
+        "description": "Axion Desktop Speakers",
+        "category": "Audio",
+        "brand": "Axion",
+        "units_per_case": 20,
+        "unit_price": 2023.38,
+        "active": false
+    },
+    {
+        "product_id": 144,
+        "product_code": "PRD-0144",
+        "description": "Veltrix Thermal Printer",
+        "category": "Office Equipment",
+        "brand": "Veltrix",
+        "units_per_case": 10,
+        "unit_price": 1097.4,
+        "active": true
+    },
+    {
+        "product_id": 145,
+        "product_code": "PRD-0145",
+        "description": "Axion Workstation",
+        "category": "Computers",
+        "brand": "Axion",
+        "units_per_case": 5,
+        "unit_price": 815.93,
+        "active": true
+    },
+    {
+        "product_id": 146,
+        "product_code": "PRD-0146",
+        "description": "Visionix 22\" Full HD Monitor",
+        "category": "Monitors",
+        "brand": "Visionix",
+        "units_per_case": 5,
+        "unit_price": 2205.85,
+        "active": true
+    },
+    {
+        "product_id": 147,
+        "product_code": "PRD-0147",
+        "description": "Visionix Webcam",
+        "category": "Peripherals",
+        "brand": "Visionix",
+        "units_per_case": 20,
+        "unit_price": 1531.67,
+        "active": true
+    },
+    {
+        "product_id": 148,
+        "product_code": "PRD-0148",
+        "description": "Orbitek 8-Port Switch",
+        "category": "Networking",
+        "brand": "Orbitek",
+        "units_per_case": 1,
+        "unit_price": 1243.35,
+        "active": true
+    },
+    {
+        "product_id": 149,
+        "product_code": "PRD-0149",
+        "description": "ByteCore 512GB SSD",
+        "category": "Storage",
+        "brand": "ByteCore",
+        "units_per_case": 10,
+        "unit_price": 542.12,
+        "active": true
+    },
+    {
+        "product_id": 150,
+        "product_code": "PRD-0150",
+        "description": "ByteCore HDMI Cable",
+        "category": "Accessories",
+        "brand": "ByteCore",
+        "units_per_case": 5,
+        "unit_price": 2202.6,
+        "active": true
+    }
+]

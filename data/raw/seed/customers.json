@@ -1,0 +1,352 @@
+[
+    {
+        "customer_id": 1,
+        "customer_code": "CUS-0001",
+        "customer_name": "Alpha Solutions",
+        "tax_id": "99.001.017/0001-07",
+        "region": "North",
+        "seller_id": 1,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 2,
+        "customer_code": "CUS-0002",
+        "customer_name": "Prime Business",
+        "tax_id": "99.002.034/0001-14",
+        "region": "West",
+        "seller_id": 4,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 3,
+        "customer_code": "CUS-0003",
+        "customer_name": "Nova Systems",
+        "tax_id": "99.003.051/0001-21",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 4,
+        "customer_code": "CUS-0004",
+        "customer_name": "Vertex Solutions",
+        "tax_id": "99.004.068/0001-28",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 25000,
+        "active": false
+    },
+    {
+        "customer_id": 5,
+        "customer_code": "CUS-0005",
+        "customer_name": "Blue Technology",
+        "tax_id": "99.005.085/0001-35",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 6,
+        "customer_code": "CUS-0006",
+        "customer_name": "Smart Retail",
+        "tax_id": "99.006.102/0001-42",
+        "region": "North",
+        "seller_id": 1,
+        "credit_limit": 150000,
+        "active": true
+    },
+    {
+        "customer_id": 7,
+        "customer_code": "CUS-0007",
+        "customer_name": "Digital Retail",
+        "tax_id": "99.007.119/0001-49",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 8,
+        "customer_code": "CUS-0008",
+        "customer_name": "Central Supplies",
+        "tax_id": "99.008.136/0001-56",
+        "region": "Central",
+        "seller_id": 5,
+        "credit_limit": 25000,
+        "active": false
+    },
+    {
+        "customer_id": 9,
+        "customer_code": "CUS-0009",
+        "customer_name": "Next Systems",
+        "tax_id": "99.009.153/0001-63",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 10,
+        "customer_code": "CUS-0010",
+        "customer_name": "Global Business",
+        "tax_id": "99.010.170/0001-70",
+        "region": "East",
+        "seller_id": 3,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 11,
+        "customer_code": "CUS-0011",
+        "customer_name": "Quantum Commerce",
+        "tax_id": "99.011.187/0001-77",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 25000,
+        "active": true
+    },
+    {
+        "customer_id": 12,
+        "customer_code": "CUS-0012",
+        "customer_name": "Dynamic Enterprises",
+        "tax_id": "99.012.204/0001-84",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 13,
+        "customer_code": "CUS-0013",
+        "customer_name": "Advance Commerce",
+        "tax_id": "99.013.221/0001-91",
+        "region": "Central",
+        "seller_id": 5,
+        "credit_limit": 25000,
+        "active": true
+    },
+    {
+        "customer_id": 14,
+        "customer_code": "CUS-0014",
+        "customer_name": "United Supplies",
+        "tax_id": "99.014.238/0001-98",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 100000,
+        "active": true
+    },
+    {
+        "customer_id": 15,
+        "customer_code": "CUS-0015",
+        "customer_name": "Vision Solutions",
+        "tax_id": "99.015.255/0001-05",
+        "region": "Central",
+        "seller_id": 5,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 16,
+        "customer_code": "CUS-0016",
+        "customer_name": "Core Commerce",
+        "tax_id": "99.016.272/0001-12",
+        "region": "West",
+        "seller_id": 4,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 17,
+        "customer_code": "CUS-0017",
+        "customer_name": "Rapid Solutions",
+        "tax_id": "99.017.289/0001-19",
+        "region": "North",
+        "seller_id": 1,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 18,
+        "customer_code": "CUS-0018",
+        "customer_name": "Superior Retail",
+        "tax_id": "99.018.306/0001-26",
+        "region": "Central",
+        "seller_id": 5,
+        "credit_limit": 25000,
+        "active": true
+    },
+    {
+        "customer_id": 19,
+        "customer_code": "CUS-0019",
+        "customer_name": "Metro Retail",
+        "tax_id": "99.019.323/0001-33",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 100000,
+        "active": true
+    },
+    {
+        "customer_id": 20,
+        "customer_code": "CUS-0020",
+        "customer_name": "Summit Business",
+        "tax_id": "99.020.340/0001-40",
+        "region": "East",
+        "seller_id": 8,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 21,
+        "customer_code": "CUS-0021",
+        "customer_name": "Pioneer Commerce",
+        "tax_id": "99.021.357/0001-47",
+        "region": "East",
+        "seller_id": 3,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 22,
+        "customer_code": "CUS-0022",
+        "customer_name": "Integra Commerce",
+        "tax_id": "99.022.374/0001-54",
+        "region": "West",
+        "seller_id": 4,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 23,
+        "customer_code": "CUS-0023",
+        "customer_name": "Atlas Business",
+        "tax_id": "99.023.391/0001-61",
+        "region": "South",
+        "seller_id": 2,
+        "credit_limit": 150000,
+        "active": true
+    },
+    {
+        "customer_id": 24,
+        "customer_code": "CUS-0024",
+        "customer_name": "Omega Systems",
+        "tax_id": "99.024.408/0001-68",
+        "region": "West",
+        "seller_id": 4,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 25,
+        "customer_code": "CUS-0025",
+        "customer_name": "Fusion Supplies",
+        "tax_id": "99.025.425/0001-75",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 26,
+        "customer_code": "CUS-0026",
+        "customer_name": "Bright Retail",
+        "tax_id": "99.026.442/0001-82",
+        "region": "North",
+        "seller_id": 6,
+        "credit_limit": 25000,
+        "active": true
+    },
+    {
+        "customer_id": 27,
+        "customer_code": "CUS-0027",
+        "customer_name": "Apex Retail",
+        "tax_id": "99.027.459/0001-89",
+        "region": "North",
+        "seller_id": 1,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 28,
+        "customer_code": "CUS-0028",
+        "customer_name": "Everest Enterprises",
+        "tax_id": "99.028.476/0001-96",
+        "region": "Central",
+        "seller_id": 5,
+        "credit_limit": 25000,
+        "active": true
+    },
+    {
+        "customer_id": 29,
+        "customer_code": "CUS-0029",
+        "customer_name": "Sterling Retail",
+        "tax_id": "99.029.493/0001-03",
+        "region": "North",
+        "seller_id": 6,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 30,
+        "customer_code": "CUS-0030",
+        "customer_name": "Horizon Supplies",
+        "tax_id": "99.030.510/0001-10",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 31,
+        "customer_code": "CUS-0031",
+        "customer_name": "Matrix Supplies",
+        "tax_id": "99.031.527/0001-17",
+        "region": "East",
+        "seller_id": 3,
+        "credit_limit": 75000,
+        "active": true
+    },
+    {
+        "customer_id": 32,
+        "customer_code": "CUS-0032",
+        "customer_name": "Titan Systems",
+        "tax_id": "99.032.544/0001-24",
+        "region": "West",
+        "seller_id": 4,
+        "credit_limit": 200000,
+        "active": true
+    },
+    {
+        "customer_id": 33,
+        "customer_code": "CUS-0033",
+        "customer_name": "Orbit Business",
+        "tax_id": "99.033.561/0001-31",
+        "region": "South",
+        "seller_id": 7,
+        "credit_limit": 150000,
+        "active": true
+    },
+    {
+        "customer_id": 34,
+        "customer_code": "CUS-0034",
+        "customer_name": "Velocity Enterprises",
+        "tax_id": "99.034.578/0001-38",
+        "region": "North",
+        "seller_id": 6,
+        "credit_limit": 50000,
+        "active": true
+    },
+    {
+        "customer_id": 35,
+        "customer_code": "CUS-0035",
+        "customer_name": "Infinity Systems",
+        "tax_id": "99.035.595/0001-45",
+        "region": "East",
+        "seller_id": 8,
+        "credit_limit": 25000,
+        "active": true
+    }
+]
