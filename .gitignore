@@ -20,3 +20,5 @@ Thumbs.db
 
 # Power BI temporary files
 *.pbit.tmp
+# Generated outputs
+data/output/

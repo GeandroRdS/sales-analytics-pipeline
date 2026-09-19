@@ -6,6 +6,7 @@ from extraction.order_parser import OrderParser
 from extraction.pdf_extractor import PDFExtractor
 from integration.erp_client import ERPClient
 from validation.order_validator import OrderValidator
+from output.excel_report import ExcelReportGenerator
 
 
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -24,6 +25,13 @@ PRODUCT_MASTER_PATH = (
     / "raw"
     / "excel"
     / "product_master.xlsx"
+)
+
+OUTPUT_PATH = (
+    BASE_DIR
+    / "data"
+    / "output"
+    / "processed_orders.xlsx"
 )
 
 
@@ -300,6 +308,26 @@ def main():
                         item["errors"]
                     )
                 )
+
+        # --------------------------------------------------------
+    # EXCEL OUTPUT
+    # --------------------------------------------------------
+
+    print()
+    print("Generating operational Excel report...")
+
+    report_generator = ExcelReportGenerator()
+
+    report_generator.generate(
+        results=results,
+        parsing_errors=parsing_errors,
+        output_path=OUTPUT_PATH,
+    )
+
+    print(
+        f"Excel report generated: "
+        f"{OUTPUT_PATH}"
+    )
 
 
 if __name__ == "__main__":
