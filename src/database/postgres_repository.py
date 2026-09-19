@@ -57,6 +57,7 @@ class PostgresRepository:
     def replace_processing_data(
         self,
         results: list[dict],
+        erp_client,
     ) -> None:
         """
         Replaces the current processed dataset.
@@ -81,6 +82,7 @@ class PostgresRepository:
                     self._load_master_data(
                         cursor,
                         results,
+                        erp_client,
                     )
 
                     self._load_orders(
@@ -107,7 +109,8 @@ class PostgresRepository:
                 order_items,
                 orders,
                 customers,
-                products
+                products,
+                sellers
             RESTART IDENTITY
             CASCADE;
             """
@@ -117,10 +120,16 @@ class PostgresRepository:
         self,
         cursor,
         results: list[dict],
+        erp_client,
     ) -> None:
 
         customers = {}
         products = {}
+        sellers = {}
+
+        # ----------------------------------------------------
+        # COLLECT MASTER DATA
+        # ----------------------------------------------------
 
         for result in results:
 
@@ -134,6 +143,25 @@ class PostgresRepository:
                     customer["customer_code"]
                 ] = customer
 
+                seller_id = customer.get(
+                    "seller_id"
+                )
+
+                if (
+                    seller_id is not None
+                    and seller_id not in sellers
+                ):
+
+                    seller = erp_client.get_seller(
+                        seller_id
+                    )
+
+                    if seller:
+
+                        sellers[
+                            seller["seller_id"]
+                        ] = seller
+
             for item in result["items"]:
 
                 if (
@@ -146,6 +174,36 @@ class PostgresRepository:
                 products[
                     item["product_code"]
                 ] = item
+
+        # ----------------------------------------------------
+        # LOAD SELLERS
+        # ----------------------------------------------------
+
+        for seller in sellers.values():
+
+            cursor.execute(
+                """
+                INSERT INTO sellers (
+                    seller_id,
+                    seller_code,
+                    seller_name,
+                    region
+                )
+                VALUES (
+                    %s, %s, %s, %s
+                );
+                """,
+                (
+                    seller["seller_id"],
+                    seller["seller_code"],
+                    seller["seller_name"],
+                    seller["region"],
+                ),
+            )
+
+        # ----------------------------------------------------
+        # LOAD CUSTOMERS
+        # ----------------------------------------------------
 
         for customer in customers.values():
 
@@ -177,6 +235,10 @@ class PostgresRepository:
                     customer["active"],
                 ),
             )
+
+        # ----------------------------------------------------
+        # LOAD PRODUCTS
+        # ----------------------------------------------------
 
         product_id = 1
 

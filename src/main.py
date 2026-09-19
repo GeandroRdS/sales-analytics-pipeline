@@ -342,7 +342,8 @@ def main():
     repository.test_connection()
 
     repository.replace_processing_data(
-        results
+        results,
+        erp,
     )
 
     print(
