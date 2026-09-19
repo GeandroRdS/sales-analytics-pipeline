@@ -1,25 +1,76 @@
-# Sales Analytics Pipeline
+# Sales Order Automation & Analytics Pipeline
 
-End-to-end data analytics project integrating sales data from an API and Excel files into an analytical database and Power BI dashboard.
+End-to-end portfolio project demonstrating business process automation, data integration, and business intelligence.
 
-## Project Goals
+The project simulates a B2B distributor that receives hundreds of customer purchase orders through a consolidated PDF document.
 
-The project simulates a real-world sales analytics scenario where data comes from multiple sources and must be extracted, validated, transformed and prepared for business analysis.
+The solution automatically extracts and validates these orders, integrates information from Excel and a simulated ERP REST API, stores processed data in PostgreSQL, and provides business analytics through Power BI.
 
-### Data Sources
+## Project Architecture
 
-- Sales data from a simulated REST API
-- Sales targets from Excel files
+```text
+Purchase Orders PDF
+        |
+        v
+  Python Extraction
+        |
+        v
+ Standardized Orders
+        |
+   +----+----+
+   |         |
+   v         v
+ Excel     ERP API
+   |         |
+   +----+----+
+        |
+        v
+    Validation
+        |
+   +----+----+
+   |         |
+   v         v
+Approved   Rejected
+   |         |
+   +----+----+
+        |
+        v
+    PostgreSQL
+        |
+   +----+----+
+   |         |
+   v         v
+ Excel    Power BI
+ Output   Analytics
+```
 
-### Planned Stack
+## Planned Stack
 
 - Python
 - Pandas
+- Excel
+- PDF Processing
+- REST APIs
 - PostgreSQL
 - SQL
 - Power BI
 - Docker
+- Git
 
-## Status
+## Business Scale
 
-🚧 Project under development.
+The synthetic environment will simulate approximately:
+
+- 35 customers
+- 8 sales representatives
+- 150 products
+- 300 purchase orders
+- 1,500+ order items
+
+All data used in this project is synthetic.
+
+## Project Status
+
+🚧 Under development.
+
+See [Project Scope](docs/project_scope.md) for the complete business requirements.
