@@ -140,8 +140,73 @@ CREATE TABLE IF NOT EXISTS analytics.fact_order_processing (
 
 
 -- =========================================================
+-- DIMENSION: ERROR
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS analytics.dim_error (
+    error_key BIGSERIAL PRIMARY KEY,
+    error_type VARCHAR(100) NOT NULL,
+    error_level VARCHAR(20) NOT NULL,
+
+    CONSTRAINT uq_dim_error
+        UNIQUE (error_type, error_level)
+);
+
+
+-- =========================================================
+-- FACT: ORDER ERROR
+-- Grain: one processing error occurrence
+-- =========================================================
+
+CREATE TABLE IF NOT EXISTS analytics.fact_order_error (
+    order_error_key BIGSERIAL PRIMARY KEY,
+
+    date_key INTEGER NOT NULL,
+    customer_key BIGINT,
+    seller_key BIGINT,
+    error_key BIGINT NOT NULL,
+
+    order_id BIGINT NOT NULL,
+    order_item_id BIGINT,
+
+    error_count INTEGER NOT NULL DEFAULT 1,
+
+    CONSTRAINT fk_fact_error_date
+        FOREIGN KEY (date_key)
+        REFERENCES analytics.dim_date(date_key),
+
+    CONSTRAINT fk_fact_error_customer
+        FOREIGN KEY (customer_key)
+        REFERENCES analytics.dim_customer(customer_key),
+
+    CONSTRAINT fk_fact_error_seller
+        FOREIGN KEY (seller_key)
+        REFERENCES analytics.dim_seller(seller_key),
+
+    CONSTRAINT fk_fact_error_error
+        FOREIGN KEY (error_key)
+        REFERENCES analytics.dim_error(error_key)
+);
+
+-- =========================================================
 -- INDEXES
 -- =========================================================
+
+CREATE INDEX IF NOT EXISTS idx_fact_error_date
+    ON analytics.fact_order_error(date_key);
+
+CREATE INDEX IF NOT EXISTS idx_fact_error_customer
+    ON analytics.fact_order_error(customer_key);
+
+CREATE INDEX IF NOT EXISTS idx_fact_error_seller
+    ON analytics.fact_order_error(seller_key);
+
+CREATE INDEX IF NOT EXISTS idx_fact_error_error
+    ON analytics.fact_order_error(error_key);
+
+CREATE INDEX IF NOT EXISTS idx_fact_error_order
+    ON analytics.fact_order_error(order_id);
+
 
 CREATE INDEX IF NOT EXISTS idx_fact_sales_date
     ON analytics.fact_sales(date_key);

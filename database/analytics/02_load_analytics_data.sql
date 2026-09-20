@@ -3,8 +3,10 @@
 -- =========================================================
 
 TRUNCATE TABLE
+    analytics.fact_order_error,
     analytics.fact_sales,
     analytics.fact_order_processing,
+    analytics.dim_error,
     analytics.dim_customer,
     analytics.dim_product,
     analytics.dim_seller,
@@ -111,6 +113,23 @@ ORDER BY seller_id;
 
 
 -- =========================================================
+-- LOAD ERROR DIMENSION
+-- =========================================================
+
+INSERT INTO analytics.dim_error (
+    error_type,
+    error_level
+)
+SELECT DISTINCT
+    error_type,
+    error_level
+FROM processing_errors
+ORDER BY
+    error_level,
+    error_type;
+
+
+-- =========================================================
 -- LOAD SALES FACT
 --
 -- Grain:
@@ -131,25 +150,15 @@ INSERT INTO analytics.fact_sales (
 )
 SELECT
     TO_CHAR(o.order_date, 'YYYYMMDD')::INTEGER,
-
     dc.customer_key,
-
     dp.product_key,
-
     ds.seller_key,
-
     o.order_id,
-
     oi.order_item_id,
-
     o.purchase_order,
-
     oi.quantity,
-
     oi.unit_price,
-
     oi.line_total
-
 FROM orders o
 
 INNER JOIN order_items oi
@@ -189,17 +198,11 @@ INSERT INTO analytics.fact_order_processing (
 )
 SELECT
     TO_CHAR(o.order_date, 'YYYYMMDD')::INTEGER,
-
     dc.customer_key,
-
     ds.seller_key,
-
     o.order_id,
-
     o.purchase_order,
-
     o.status,
-
     1,
 
     CASE
@@ -237,3 +240,44 @@ LEFT JOIN (
     GROUP BY order_id
 ) errors
     ON errors.order_id = o.order_id;
+
+
+-- =========================================================
+-- LOAD ORDER ERROR FACT
+--
+-- Grain:
+-- one processing error occurrence
+-- =========================================================
+
+INSERT INTO analytics.fact_order_error (
+    date_key,
+    customer_key,
+    seller_key,
+    error_key,
+    order_id,
+    order_item_id,
+    error_count
+)
+SELECT
+    TO_CHAR(o.order_date, 'YYYYMMDD')::INTEGER,
+    dc.customer_key,
+    ds.seller_key,
+    de.error_key,
+    pe.order_id,
+    pe.order_item_id,
+    1
+
+FROM processing_errors pe
+
+INNER JOIN orders o
+    ON o.order_id = pe.order_id
+
+INNER JOIN analytics.dim_error de
+    ON de.error_type = pe.error_type
+    AND de.error_level = pe.error_level
+
+LEFT JOIN analytics.dim_customer dc
+    ON dc.customer_code = o.customer_code
+
+LEFT JOIN analytics.dim_seller ds
+    ON ds.seller_id = o.seller_id;
